@@ -32,7 +32,8 @@ baidusitemap:
 if version is 3.x.x, you should configure this plugin in `_config.yml`.
 ``` yaml
 baidusitemap:
-path: baidusitemap.xml
+    url: xxx.gitcafe.io
+    path: baidusitemap.xml
 ```
 - **path** - Sitemap path. (Default: baidusitemap.xml)
 

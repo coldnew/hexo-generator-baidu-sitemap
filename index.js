@@ -2,6 +2,7 @@ var merge = require('utils-merge');
 var pathFn = require('path');
 
 var config = hexo.config.baidusitemap = merge({
+  url:  hexo.config.url,
   path: 'baidusitemap.xml'
 }, hexo.config.baidusitemap);
 
